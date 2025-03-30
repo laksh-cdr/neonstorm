@@ -1,0 +1,77 @@
+:root {
+  --black: #11121b;
+
+  --black-secondary: #191b27;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  cursor: default;
+  font-family: cursive;
+  user-select: none;
+}
+
+body {
+  height: 100vh;
+  background-color: black;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+
+#score {
+  position: absolute;
+  top: 30px;
+  left: 50%;
+  color: white;
+  font-size: 3rem;
+  font-family: cursive;
+}
+
+#help {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  color: white;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#gameOverUi {
+  width: 360px;
+  height: 200px;
+  background-color: white;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+}
+
+#gameOverUi h1 {
+  font-size: 3.5rem;
+  height: 70px;
+}
+
+#gameOverUi p {
+  font-size: 1.4rem;
+  height: 50px;
+}
+
+#gameOverUi .buttonContainer button {
+  width: 310px;
+  height: 40px;
+  border: none;
+  outline: none;
+  background-color:chocolate;
+  border-radius: 50px;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
